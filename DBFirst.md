@@ -4,7 +4,7 @@ Elencate le colonne, poi pensate ai tipi di dati corretti per ciascuna colonna. 
 | Colonne                                                          | Types         | Indici      | Attributi                       |
 | ---------------------------------------------------------------- | ------------- | ----------- | ------------------------------- |
 | ID                                                               | BIGINT        | PRIMARY KEY | NOT NULL, UNIQUE, AUTOINCREMENT |
-| TARGA                                                            | CHART(7)      | ---         | NULL                            |
+| TARGA                                                            | VARCHART(20)  | ---         | NULL                            |
 | MODELLO                                                          | VARCHART(20)  | ---         | NOT NULL                        |
 | KILOMETRAGGIO                                                    | MEDIUMINT     | ---         | NOT NULL                        |
 | ANNO                                                             | YEAR          | ---         | NOT NULL                        |
